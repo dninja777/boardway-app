@@ -1,5 +1,5 @@
 class Review < ActiveRecord::Base
-    belong_to :play
-    belongz_to :user
+    belongs_to :play
+    belongs_to :user
     
 end
